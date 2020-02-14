@@ -22,7 +22,6 @@ Explorer right click on the command file and select "Run as administrator".
 win-install.cmd   - patches VMware
 win-uninstall.cmd - restores VMware
 --------------------
-
 3. Linux
 ----------
 On Linux you will need to be either root or use sudo to run the scripts.
@@ -31,3 +30,14 @@ by running chmod +x against the 2 files.
 
 lnx-install.sh   - patches VMware
 lnx-uninstall.sh - restores VMware
+--------------------
+
+4. Editing the VMX File.
+If you did not specify location, look in Documents\virtual machines\
+Right click on the VMX file and choose "Open with". Choose "More Apps".
+From the list of apps that will be seen, choose "Notepad" and press Enter.
+At the bottom add the code:
+
+smc.version = "0"
+
+Save the changes.
