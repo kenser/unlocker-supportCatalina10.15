@@ -1,3 +1,5 @@
+For AMD CPU unlocker --> https://github.com/covolog/VMWare-unlocker-forAMD
+AMD CPU CANNOT INSTALL Catalina10.15
 +-----------------------------------------------------------------------------+
 | IMPORTANT:   ONLY FOR VMware Workstation 15.5.0 or 15.5.1                   |
 | ==========                                                                  |
