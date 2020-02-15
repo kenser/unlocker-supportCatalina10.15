@@ -1,5 +1,5 @@
-For AMD CPU unlocker --> https://github.com/covolog/VMWare-unlocker-forAMD
-AMD CPU CANNOT INSTALL Catalina10.15
+For AMD CPU --> https://github.com/covolog/VMWare-unlocker-forAMD
+May be? AMD CPU CANNOT INSTALL Catalina10.15
 +-----------------------------------------------------------------------------+
 | IMPORTANT:   ONLY FOR VMware Workstation 15.5.0 or 15.5.1                   |
 | ==========                                                                  |
@@ -39,6 +39,7 @@ Create a Virtual machine on VMware.
 If you did not specify location, look in Documents\virtual machines\
 Right click on the VMX file and choose "Open with". Choose "More Apps".
 From the list of apps that will be seen, choose "Notepad" and press Enter.
+---For Intel CPU---
 At the bottom add the code:
 
 smc.version = "0"
