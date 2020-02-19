@@ -39,9 +39,12 @@ Create a Virtual machine on VMware.
 If you did not specify location, look in Documents\virtual machines\
 Right click on the VMX file and choose "Open with". Choose "More Apps".
 From the list of apps that will be seen, choose "Notepad" and press Enter.
----For Intel CPU---
+--For Intel CPU--
 At the bottom add the code:
 
 smc.version = "0"
 
 Save the changes.
+
+--Thanks--
+Thanks to Dave Parsons for originally unlocker.
