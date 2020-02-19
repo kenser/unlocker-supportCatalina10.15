@@ -8,7 +8,7 @@ May be? AMD CPU CANNOT INSTALL Catalina10.15
 |                                                                             |
 +-----------------------------------------------------------------------------+
 --Operation confirmed with--
-Intel CPU
+Intel CPU (Core i7 8705G)
 Windows 10, 64-bit  (Build 18363) 10.0.18363
 macOS Catalina 10.15.4 beta
 --------------------
