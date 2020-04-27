@@ -74,12 +74,18 @@ def convertpath(path):
 
 def inputversion():
     print('Which version are you using?')
-    vmversion = input(' 0 : 15.5.0\n   or\n 1 : 15.5.1\n   --> ')
+    vmversion = input('0 : 15.5.0\n1 : 15.5.1\n2 : 15.5.2\n3 : 15.5.3\n--> ')
     if (vmversion == '0') or (vmversion == '15.5.0'):
         corepath = '11.5.0/14634996'
         return corepath
     elif (vmversion == '1') or (vmversion == '15.5.1'):
         corepath = '11.5.1/15018442'
+        return corepath
+    elif (vmversion == '2') or (vmversion == '15.5.2'):
+        corepath = '11.5.2/15794494'
+        return corepath
+    elif (vmversion == '3') or (vmversion == '15.5.3'):
+        corepath = '11.5.3/15870345'
         return corepath
     else:
         print('Value is invalid.\nPlease enter the correct value.\n')
@@ -105,7 +111,7 @@ def main():
     corepath = inputversion()
 
     # isoimage url
-    # Only for VMware(R) Workstation 15.5.0 or 15.5.1
+    # Only for VMware(R) Workstation 15.5.0 15.5.1 15.5.2 15.5.3
     urlcore = url + corepath + '/core/com.vmware.fusion.zip.tar'
 
     # Download the darwin.iso tgz file
