@@ -1,8 +1,8 @@
-macOS Unlocker V3.1 for VMware Workstation
+macOS Unlocker V3.1.1 for VMware Workstation
 ==========================================
 
 +-----------------------------------------------------------------------------+
-| IMPORTANT:   ONLY FOR VMware Workstation 15.5.0 or 15.5.1                   |
+| IMPORTANT:   ONLY FOR VMware Workstation 15.5.0 15.5.1 15.5.2 15.5.3        |
 | ==========                                                                  |
 |                                                                             |
 | Always uninstall the previous version of the Unlocker before using a new    |
@@ -27,6 +27,7 @@ History
 -------
 02/13/20 3.1 - Fixed gettools.py to work correctly download darwin*.iso
                & unlocker.py byte error.
+04/28/20 3.1.1 - Fixed gettools.py to work correctly download darwin*.iso.
 
 
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "Unlocker 3.1 for VMware Workstation 15.5.0 or 15.5.1"
+echo "Unlocker 3.1.1 for VMware Workstation 15.5.0 15.5.1 15.5.2 15.5.3"
 echo "====================================="
 echo "Thanks to Dave Parsons for original."
 
